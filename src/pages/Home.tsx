@@ -7,39 +7,39 @@ import SectionHeader from "@/components/SectionHeader";
 const featuredCourses = [
     {
         id: "1",
-        title: "Web Development Fundamentals",
+        title: "MS-CIT",
         instructor: "MKCL Trainers",
         description:
-            "Learn the basics of HTML, CSS, and JavaScript to build responsive websites from scratch.",
-        image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80&w=800",
-
-        duration: "8 weeks",
+            "MS-CIT, launched in 2001 by MKCL, is Maharashtra's leading IT literacy course. In the digital age, where knowledge is created, stored, and accessed digitally, MS-CIT aims to bridge the digital divide through IT awareness and functionality.",
+        image: "https://www.mkcl.org/images/courses/logo/ms-cit.webp",
+        duration: "9 weeks / 120 hrs",
         level: "Beginner" as const,
-        enrollLink: "",
+        category: "Student Friendly",
+        enrollLink: "https://www.mkcl.org/#/courses/ms-cit",
     },
     {
         id: "2",
-        title: "Data Science Essentials",
+        title: "Klic Advanced Excel",
         instructor: "MKCL Trainers",
         description:
-            "Master the fundamentals of data analysis, visualization, and machine learning algorithms.",
-        image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&q=80&w=800",
-
-        duration: "10 weeks",
+            "Excel skills are as important as the subject knowledge. Those who know Excel can find a better paying job. An Excel Expert collects, edits, analyses data, creates data bases and reports. The conclusions made by the data expert are helpful for organizations to forecast the business speculations.",
+        image: "https://klic.mkcl.org/user/pages/images/courses/KLiC-Advanced-Excel-2023.jpg",
+        duration: "12 weeks / 120 hrs",
         level: "Intermediate" as const,
-        enrollLink: "",
+        category: "Accounting",
+        enrollLink: "https://klic.mkcl.org/accounting/advanced-excel",
     },
     {
         id: "3",
-        title: "Mobile App Development",
+        title: "KLiC Tally Prime with GST",
         instructor: "MKCL Trainers",
         description:
-            "Build cross-platform mobile applications using React Native and modern JavaScript frameworks.",
-        image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=800",
-
-        duration: "12 weeks",
+            "Enroll in KLiC Tally Prime with GST and learn everything about Accounting! You will learn to make accurate and quick reports in no time! Become proficient in GST, voucher, currency, inventories and excise reports. The course also offers business management and data management skills.",
+        image: "https://klic.mkcl.org/user/pages/images/courses/KLiC-Tally-Prime-with-GST-2023.jpg",
+        duration: "12 weeks / 120 hrs",
         level: "Advanced" as const,
-        enrollLink: "",
+        category: "Accounting",
+        enrollLink: "https://klic.mkcl.org/accounting/tally-prime-with-gst",
     },
 ];
 

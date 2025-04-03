@@ -59,7 +59,9 @@ const CourseCard = ({
                 <CardDescription>By {instructor}</CardDescription>
             </CardHeader>
             <CardContent className="flex-grow">
-                <p className="text-sm text-gray-600">{description}</p>
+                <p className="text-sm text-gray-600">
+                    {description.slice(0, 50) + " ..."}
+                </p>
                 <div className="flex items-center mt-4 text-sm text-gray-500">
                     <span>{duration}</span>
                 </div>
